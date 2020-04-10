@@ -15,7 +15,7 @@ import java.util.concurrent.CountDownLatch
 import java.util.concurrent.TimeUnit
 
 /**
- * Created by abhishek.sharma on 13/11/17.
+ * Created by abhishek.pathak on 10/04/2020.
  */
 @RunWith(AndroidJUnit4::class)
 class SourceDaoTest {
@@ -24,10 +24,12 @@ class SourceDaoTest {
 
     @Before
     fun initDatabase() {
-        newsDBHelper = Room.inMemoryDatabaseBuilder(InstrumentationRegistry.getContext(),
-                NewsDBHelper::class.java)
-                .allowMainThreadQueries()
-                .build()
+        newsDBHelper = Room.inMemoryDatabaseBuilder(
+            InstrumentationRegistry.getContext(),
+            NewsDBHelper::class.java
+        )
+            .allowMainThreadQueries()
+            .build()
     }
 
     @After
@@ -35,13 +37,17 @@ class SourceDaoTest {
         newsDBHelper.close()
     }
 
-    private fun getNewsSourceDummyList() : List<SourceEntity> {
-        var sourceEntity = SourceEntity()
-        sourceEntity.name = "Google News"
-        sourceEntity.category = "General"
-        sourceEntity.description = "Some dummy description"
-        sourceEntity.id = "googlenews"
-        sourceEntity.language = "en"
+    private fun getNewsSourceDummyList(): List<SourceEntity> {
+        var sourceEntity = SourceEntity(
+            "googlenews",
+            "Google News",
+            "Some dummy description",
+            "xyz",
+            "General",
+            "en",
+            "India"
+        )
+
         var newsSourceList = ArrayList<SourceEntity>()
         newsSourceList.add(sourceEntity)
         return newsSourceList

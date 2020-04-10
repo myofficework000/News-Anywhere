@@ -1,7 +1,6 @@
 # Android Architecture Sample
 
-[Android Architecture Components](https://developer.android.com/topic/libraries/architecture/index.html) were announced in Google I/O 2017
-This is just a sample app explaining the new Architecture Guidelines written in **Kotlin**.
+This is just a sample news app explaining the new Architecture Guidelines written in **Kotlin**.
 This sample app is powered by [NewsAPI](https://newsapi.org/).
 
 ## Components Used
@@ -34,11 +33,18 @@ The app uses `ViewModel` to abstract the data from UI and `Repository` as single
 
 ## Screenshots
 
-<img alt="NewsApp Main Page" height="450px" src="https://raw.githubusercontent.com/abhinav272/NewsApp/master/art/Screenshot_1509641380.png" />
+<img alt="NewsApp Main Page" height="450px"
+ src="https://github.com/cheetahmail007/News-Anywhere/blob/master/art/pic_first.png" />
 
-<img alt="NewsApp Main Page" height="450px" src="https://raw.githubusercontent.com/abhinav272/NewsApp/master/art/Screenshot_1509641449.png" />
+<img alt="NewsApp Main Page" height="450px"
+ src="https://github.com/cheetahmail007/News-Anywhere/blob/master/art/pic_second.png" />
 
-<img alt="NewsApp Main Page" height="450px" src="https://raw.githubusercontent.com/abhinav272/NewsApp/master/art/Screenshot_1509642715.png" />
+<img alt="NewsApp Main Page" height="450px"
+src="https://github.com/cheetahmail007/News-Anywhere/blob/master/art/pic_third.png" />
+
+
+<img alt="NewsApp Main Page" height="450px"
+src="https://github.com/cheetahmail007/News-Anywhere/blob/master/art/pic_fourth.png" />
 
 
 
@@ -53,27 +59,3 @@ The app uses `ViewModel` to abstract the data from UI and `Repository` as single
   <h3>Proudly :muscle: made in <b><a href="https://kotlinlang.org/">Kotlin</a></b></h3>
 </p>
 
-## License
--------
-
-    The MIT License (MIT)
-    
-    Copyright (c) 2017 Abhinav Sharma
-    
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
-
-    The above copyright notice and this permission notice shall be included in all
-    copies or substantial portions of the Software.
-
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-    SOFTWARE.
