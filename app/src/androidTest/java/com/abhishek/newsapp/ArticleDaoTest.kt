@@ -38,7 +38,7 @@ class ArticleDaoTest {
     }
 
     fun getGoogleArticleList(): List<ArticleEntity> {
-        var article = ArticleEntity("Article1", "googlenews", "Abhinav",
+        var article = ArticleEntity("Article1", "googlenews", "Abhishek pathak",
                 "This is the dummy article description", "no url string",
                 "no url for thumbnail", "noDate")
 
@@ -48,7 +48,7 @@ class ArticleDaoTest {
     }
 
     fun getArticleDummyList(): List<ArticleEntity> {
-        var article2 = ArticleEntity("Article2", "foxnews", "Abhinav",
+        var article2 = ArticleEntity("Article2", "foxnews", "Abhishek pathak",
                 "This is the dummy article description", "no url string",
                 "no url for thumbnail", "noDate")
 
