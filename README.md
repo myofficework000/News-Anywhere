@@ -1,7 +1,5 @@
 # Android Architecture Sample
-
-[Android Architecture Components](https://developer.android.com/topic/libraries/architecture/index.html) were announced in Google I/O 2017
-This is just a sample app explaining the new Architecture Guidelines written in **Kotlin**.
+This is just a sample app for news reading explaining the new Architecture Guidelines written in **Kotlin**.
 This sample app is powered by [NewsAPI](https://newsapi.org/).
 
 ## Components Used
@@ -34,12 +32,17 @@ The app uses `ViewModel` to abstract the data from UI and `Repository` as single
 
 ## Screenshots
 
-<img alt="NewsApp Main Page" height="450px" src="https://raw.githubusercontent.com/abhinav272/NewsApp/master/art/Screenshot_1509641380.png" />
+<img alt="NewsApp Main Page" height="450px" 
+src="https://github.com/cheetahmail007/News-Anywhere/blob/master/art/pic_first.png" />
 
-<img alt="NewsApp Main Page" height="450px" src="https://raw.githubusercontent.com/abhinav272/NewsApp/master/art/Screenshot_1509641449.png" />
+<img alt="NewsApp Main Page" height="450px" 
+src="https://github.com/cheetahmail007/News-Anywhere/blob/master/art/pic_second.png" />
 
-<img alt="NewsApp Main Page" height="450px" src="https://raw.githubusercontent.com/abhinav272/NewsApp/master/art/Screenshot_1509642715.png" />
+<img alt="NewsApp Main Page" height="450px" 
+src="https://github.com/cheetahmail007/News-Anywhere/blob/master/art/pic_third.png" />
 
+<img alt="NewsApp Main Page" height="450px" 
+src="https://github.com/cheetahmail007/News-Anywhere/blob/master/art/pic_fourth.png" />
 
 
 --------------------
