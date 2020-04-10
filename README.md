@@ -1,6 +1,5 @@
 # Android Architecture Sample
-
-This is just a sample news app explaining the new Architecture Guidelines written in **Kotlin**.
+This is just a sample app for news reading explaining the new Architecture Guidelines written in **Kotlin**.
 This sample app is powered by [NewsAPI](https://newsapi.org/).
 
 ## Components Used
@@ -33,19 +32,17 @@ The app uses `ViewModel` to abstract the data from UI and `Repository` as single
 
 ## Screenshots
 
-<img alt="NewsApp Main Page" height="450px"
- src="https://github.com/cheetahmail007/News-Anywhere/blob/master/art/pic_first.png" />
+<img alt="NewsApp Main Page" height="450px" 
+src="https://github.com/cheetahmail007/News-Anywhere/blob/master/art/pic_first.png" />
 
-<img alt="NewsApp Main Page" height="450px"
- src="https://github.com/cheetahmail007/News-Anywhere/blob/master/art/pic_second.png" />
+<img alt="NewsApp Main Page" height="450px" 
+src="https://github.com/cheetahmail007/News-Anywhere/blob/master/art/pic_second.png" />
 
-<img alt="NewsApp Main Page" height="450px"
+<img alt="NewsApp Main Page" height="450px" 
 src="https://github.com/cheetahmail007/News-Anywhere/blob/master/art/pic_third.png" />
 
-
-<img alt="NewsApp Main Page" height="450px"
+<img alt="NewsApp Main Page" height="450px" 
 src="https://github.com/cheetahmail007/News-Anywhere/blob/master/art/pic_fourth.png" />
-
 
 
 --------------------
@@ -58,4 +55,3 @@ src="https://github.com/cheetahmail007/News-Anywhere/blob/master/art/pic_fourth.
 <p align="center">
   <h3>Proudly :muscle: made in <b><a href="https://kotlinlang.org/">Kotlin</a></b></h3>
 </p>
-
