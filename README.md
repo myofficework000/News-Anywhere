@@ -35,6 +35,9 @@ The app uses `ViewModel` to abstract the data from UI and `Repository` as single
 <img alt="NewsApp Main Page" height="450px" 
 src="https://github.com/cheetahmail007/News-Anywhere/blob/master/art/pic_first.png" />
 
+<img alt="NewsApp Main Page" height="450px"
+src="https://github.com/cheetahmail007/News-Anywhere/blob/master/art/pic_dash.png" />
+
 <img alt="NewsApp Main Page" height="450px" 
 src="https://github.com/cheetahmail007/News-Anywhere/blob/master/art/pic_second.png" />
 
